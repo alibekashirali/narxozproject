@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>What:</strong>
+  <%= @order.what %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @order.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @order.height %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @order.length %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @order.weight %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @order.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @order.price %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

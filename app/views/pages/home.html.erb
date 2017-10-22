@@ -1,0 +1,15 @@
+<% if user_signed_in? %>
+  <div class="container">
+    <br>
+  <%= link_to "Категорий", categories_path, class: 'btn btn-primary' %>
+  </div>
+  <% else %>
+  <div class="bg-overlay">
+    <div class="text-center">
+  		<h1>Проект для помощи женщинам</h1>
+      <br><br>
+     
+    </div>
+  </div>
+  
+<% end %>
